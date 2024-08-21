@@ -8,7 +8,7 @@ sudo cat << EOF > /etc/httpd/conf.d/tomcat_manager.conf
     DefaultType text/html
     ProxyRequests off
     ProxyPreserveHost On
-    ProxyPass / http://localhost:8080/unicorn-web-project-3/
-    ProxyPassReverse / http://localhost:8080/unicorn-web-project-3/
+    ProxyPass / http://localhost:8080/unicorn-web-project/
+    ProxyPassReverse / http://localhost:8080/unicorn-web-project/
 </VirtualHost>
 EOF
